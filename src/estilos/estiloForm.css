@@ -1,0 +1,66 @@
+.formularioRegistro .formCuerpo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  /* Espacio entre cada FormInput */
+}
+
+.formularioRegistro .titleForm {
+  width: 100%;
+  grid-column: span 2;
+  border: 1px solid #dddddd;
+  vertical-align: inherit;
+  padding: 10px;
+}
+
+.divGrid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.columAmpliada {
+  grid-column: span 2;
+  width: 100%;
+  /* Cambia a una sola columna */
+}
+
+.formularioRegistro button {
+  grid-column: span 2;
+  /* Hace que el botón abarque dos columnas */
+  padding: 10px;
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formularioRegistro button:hover {
+  background-color: #80b2c9;
+}
+
+@media (max-width: 600px) {
+  .divGrid  {
+    grid-column: span 2;
+    width: 100%;
+    /* Hace que el formulario sea más pequeño en dispositivos pequeños */
+  }
+
+  .estilostexto {
+    font-size: 18px;
+    /* Reduce el tamaño del texto en dispositivos pequeños */
+  }
+}
+
+/* Estilos para dispositivos medianos (tabletas, entre 600px y 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .divGrid  {
+    grid-column: span 2;
+    width: 100%;
+    /* Hace que el formulario sea más pequeño en dispositivos pequeños */
+  }
+}

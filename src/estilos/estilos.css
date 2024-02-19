@@ -1,0 +1,118 @@
+/*Estilo para el body */
+body {
+  background-color: rgb(255, 255, 255);
+
+}
+
+.bd-navbar {
+  padding: 0.75rem 0;
+  background-color: transparent;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+
+/* Estilos page inicio*/
+.slider img {
+  width: 100%;
+  height: 500px;
+}
+
+.producto {
+  width: 100%;
+  height: 250px;
+}
+
+.logo-principal {
+  width: 60px;
+}
+
+.divBuscar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.divBuscar input {
+  width: 100%;
+}
+
+
+.grillaMarcas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.marca {
+  background: #f0f0f0; /* Fondo gris claro para cada item */
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px; /* Bordes redondeados para cada item */
+}
+
+.texto {
+  background-color: rgb(63, 166, 214);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilos footer*/
+.footer-estilo {
+  background-color: #bfbfd6;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-estilo .footer-lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-estilo .footer-lista li {
+  margin: 0 10px;
+}
+
+.footer-estilo .footer-lista li a {
+  color: #03101b;
+  text-decoration: none;
+}
+
+.footer-estilo .footer-lista li a:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-estilo {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+/* Sistema de grillas */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.ima {
+
+  width: 500px;
+
+  height: 400px;
+}

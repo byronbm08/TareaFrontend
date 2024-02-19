@@ -1,0 +1,26 @@
+.paginaNoEncontrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; /* Utiliza el 100% de la altura de la ventana */
+    padding: 20px;
+  }
+  
+  .tituloNoEncontrado {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem; /* Ajusta el tamaño según prefieras */
+  }
+  
+  .imagenNoEncontrada {
+    max-width: 100%; /* Hace la imagen responsiva */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .textoNoEncontrado {
+    font-size: 1.2rem;
+    color: #666;
+  }
